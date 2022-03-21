@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { useState } from "react";
 import Logo from "./gym-logo.jpg";
+import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -30,11 +31,15 @@ export default function Sidebar() {
                 </div>
                 <div className="sidebar-body">
                     <ul className="nav-menu">
-                        <li className="nav-link" >
+                        <li className="nav-link" onClick={handleToggleMenu} >
+                            <NavLink to="/home" className="navlink">
                                 Home
+                            </NavLink>
                         </li>
-                        <li className="nav-link" >
-                            About 
+                        <li className="nav-link" onClick={handleToggleMenu} >
+                            <NavLink to="/about" className="navlink">
+                                About 
+                            </NavLink>
                         </li>
                         <li className="nav-link">
                             Features

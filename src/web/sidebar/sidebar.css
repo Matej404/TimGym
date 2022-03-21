@@ -135,4 +135,13 @@
   color: #941f1f;
   background-color: white;
 }
+
+.nav-menu li .navlink {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu li .navlink:hover {
+  color: #941f1f;
+}
 /*# sourceMappingURL=sidebar.css.map */

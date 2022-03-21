@@ -90,5 +90,13 @@
             color: rgb(148, 31, 31);
             background-color: white;
         }
+        .navlink {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                color: rgb(148, 31, 31);
+            }
+        }
     }
 }
+
