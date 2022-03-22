@@ -41,8 +41,10 @@ export default function Sidebar() {
                                 About 
                             </NavLink>
                         </li>
-                        <li className="nav-link">
-                            Features
+                        <li className="nav-link" onClick={handleToggleMenu}>
+                            <NavLink to="/features" className="navlink" >
+                                Features
+                            </NavLink>
                         </li>
                         <li className="nav-link">
                             Photos

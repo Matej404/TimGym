@@ -106,7 +106,6 @@
 
 .nav-menu {
   width: 100%;
-  background-color: aqua;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (80px)[5];
@@ -127,21 +126,29 @@
   border-bottom: 2px solid white;
   font-size: 1.5rem;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav-menu li:hover {
-  color: #941f1f;
-  background-color: white;
 }
 
 .nav-menu li .navlink {
   color: white;
   text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #941f1f;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-menu li .navlink:hover {
   color: #941f1f;
+  background-color: white;
 }
 /*# sourceMappingURL=sidebar.css.map */
