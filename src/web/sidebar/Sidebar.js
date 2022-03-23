@@ -52,8 +52,10 @@ export default function Sidebar() {
                         <li className="nav-link">
                             Offer
                         </li> 
-                        <li className="nav-link">
-                            Contact
+                        <li className="nav-link" onClick={handleToggleMenu}>
+                            <NavLink to="./contact" className="navlink">
+                                Contact
+                            </NavLink>
                         </li>
                     </ul>
                 </div>

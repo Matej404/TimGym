@@ -4,6 +4,7 @@ import Sidebar from "./sidebar/Sidebar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Features from "./features/Features";
+import Contact from "./contact/Contact";
 
 export default function Main() {
 
@@ -15,6 +16,7 @@ export default function Main() {
                     <Route path="/home" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/features" element={<Features />} />
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
             </main>
         </div>
