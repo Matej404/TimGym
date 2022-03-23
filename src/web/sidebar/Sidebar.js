@@ -2,7 +2,7 @@ import "./sidebar.css";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { useState } from "react";
-import Logo from "./gym-logo.jpg";
+import Logo from "./gym-logo.png";
 import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
@@ -24,7 +24,7 @@ export default function Sidebar() {
                     <div className="logo-img">
                         <img src={Logo} />
                     </div>
-                    <h1>Tim's Gym</h1>
+                    <h1>LB44 FITNESS</h1>
                     <div className="close-btn" onClick={handleToggleMenu}>
                         <MdClose />
                     </div>
@@ -47,7 +47,7 @@ export default function Sidebar() {
                             </NavLink>
                         </li>
                         <li className="nav-link">
-                            Photos
+                            Meet your trainer
                         </li>
                         <li className="nav-link">
                             Offer

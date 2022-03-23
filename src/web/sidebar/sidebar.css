@@ -69,11 +69,12 @@
 .sidebar-header h1 {
   color: #202020;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1.9rem;
+  text-align: center;
 }
 
 .logo-img {
-  width: 90px;
+  width: 160px;
 }
 
 .logo-img img {
@@ -91,9 +92,9 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #202020;
-  font-size: 2.5rem;
+  font-size: 3.1rem;
   padding: 12px;
-  margin: 0 5px;
+  margin: 0 10px;
   border-radius: 3px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
@@ -108,8 +109,8 @@
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (80px)[5];
-      grid-template-rows: repeat(5, 80px);
+  -ms-grid-rows: (80px)[6];
+      grid-template-rows: repeat(6, 80px);
 }
 
 .nav-menu li {

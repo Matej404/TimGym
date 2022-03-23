@@ -1,5 +1,5 @@
 import "./about.css";
-import Gym from "./gym.jpeg";
+import Gym from "./gym.jpg";
 
 export default function About() {
 
