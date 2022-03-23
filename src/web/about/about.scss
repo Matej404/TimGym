@@ -43,3 +43,84 @@
         font-size: 1.5rem;
     }
 }
+
+.view-photos {
+    margin: 50px;
+    padding: 20px 10px;
+    background-color: rgb(148, 31, 31);
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: black;
+        background-color: white;
+    }
+}
+
+
+/*________________________________________________________________photos_______________________________________________________*/
+
+.photos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.single-photo {
+    width: 200px;
+    margin: 15px;
+    cursor: pointer;
+    img {
+        width: 100%;
+        border: 4px solid rgb(148, 31, 31);
+        border-radius: 4px;
+    }
+}
+/*_________________________________________________popUp_______________________________________________________________*/
+
+.popUp-img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(39, 38, 38);
+    z-index: 10;
+    left: calc((50vw - 50%) * -1);
+    top: calc((50vh - 50%) * -1);
+    transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+    img {
+        height: 100%;
+    }
+}
+
+.btn-close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-left {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-right {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
