@@ -48,14 +48,16 @@ export default function Sidebar() {
                                 Features
                             </NavLink>
                         </li>
-                        <li className="nav-link">
-                            Meet your trainer
+                        <li className="nav-link" onClick={handleToggleMenu}>
+                            <NavLink to="/trainer" className="navlink">
+                                Meet your trainer
+                            </NavLink>
                         </li>
                         <li className="nav-link">
                             Offer
                         </li> 
                         <li className="nav-link" onClick={handleToggleMenu}>
-                            <NavLink to="./contact" className="navlink">
+                            <NavLink to="/contact" className="navlink">
                                 Contact us
                             </NavLink>
                         </li>
