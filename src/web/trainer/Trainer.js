@@ -1,5 +1,6 @@
 import "./trainer.css";
 import Tim from "./Tim.jpg";
+import { Fade } from "react-reveal";
 
 export default function Trainer() {
 
@@ -8,6 +9,7 @@ export default function Trainer() {
             <h2 className="trainer-headline">MEET YOUT TRAINER</h2>
             <div className="trainer-container">
                 <h3>Tim Newton</h3>
+                <Fade>
                     <p>
                         <div className="trainer-img">
                             <img src={Tim} />
@@ -36,6 +38,7 @@ export default function Trainer() {
                         humour, or non-characteristic words etc.
                         
                     </p>
+                    </Fade>
             </div>
         </div>
     )

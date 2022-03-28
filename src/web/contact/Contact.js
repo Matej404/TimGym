@@ -1,12 +1,14 @@
 import "./contact.css";
 import Location from "./location.jpg";
 import { FaFacebook } from "react-icons/fa";
+import { Fade } from "react-reveal";
 
 export default function Contact() {
 
     return(
         <div className="contact">
             <h1>CONTACT US</h1>
+            <Fade>
             <div className="contact-information-container">
                 <div className="contact-information">
                     <p><a href="https://www.facebook.com/LB44Fitness" target="_blank"><FaFacebook className="facebook" /></a></p>
@@ -21,10 +23,11 @@ export default function Contact() {
                         <p> adress: 240 Blackfriars Road SE1 8BF</p>
                     </div>
                 </div>
+                
             <div className="location">
                 <img src={Location} />
             </div>
-            
+            </Fade>
         </div>
     )
 }

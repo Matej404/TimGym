@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { Fade } from "react-reveal";
 
 export default function About() {
     const [popUp, setPopUp] = useState("");
@@ -32,9 +33,11 @@ export default function About() {
         <div className="about">
             <h2 className="about-headline">ABOUT US</h2>
             <div className="about-container">
+                <Fade>
                 <div className="about-img">
                     <img src={Gym} />
                 </div>
+                
                 <div className="about-content">
                     <p>
                     Lorem Ipsum is simply dummy text of the printing and 
@@ -49,12 +52,15 @@ export default function About() {
                     PageMaker including versions of Lorem Ipsum.
                     </p>
                 </div>
+                </Fade>
             </div>
+            <Fade>
             <Link to="photos" spy={true} smooth={true}>
                 <div className="view-photos">
                     VIEW PHOTOS
                 </div>
             </Link>
+            </Fade>
             <div className="photos" id="photos">
             <div className="photos-container">
                 {imgData.map((image, index) => {
@@ -70,11 +76,10 @@ export default function About() {
                                     <RiArrowLeftSLine className="btn-left" onClick={prevBtn} />
                                     <RiArrowRightSLine className="btn-right" onClick={nextBtn} />
                                     {imgData.map((image, index) => (
-                                        <div key={index}>
+                                        <div key={index} >
                                             {index === current && (
                                                 <img src={image.img} />
                                             )}
-                                            
                                         </div>
                                     ))}
                                 </div>

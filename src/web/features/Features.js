@@ -3,12 +3,14 @@ import equipment1 from "./images/1.svg";
 import equipment2 from "./images/2.svg";
 import equipment3 from "./images/3.svg";
 import equipment4 from "./images/4.svg";
+import { Fade } from "react-reveal";
 
 export default function Features() {
 
     return(
         <div className="features">
             <h2 className="features-headline">FEATURES</h2>
+            <Fade>
             <div className="features-container">
                 <div className="features-item">
                     <img src={equipment1} />
@@ -27,6 +29,7 @@ export default function Features() {
                     <h3>Cardio machines</h3>
                 </div>
             </div>
+            </Fade>
         </div>
     )
 }
