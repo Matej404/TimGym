@@ -4,6 +4,7 @@ import { MdClose } from "react-icons/md";
 import { useState } from "react";
 import Logo from "./gym-logo.png";
 import { NavLink } from "react-router-dom";
+import { Slide } from "react-reveal";
 
 export default function Sidebar() {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -19,6 +20,7 @@ export default function Sidebar() {
                 <p>MENU</p>
             </div>
             {toggleMenu && (
+            <Slide left>
             <div className="sidebar">
                 <div className="sidebar-header">
                     <div className="logo-img">
@@ -54,12 +56,13 @@ export default function Sidebar() {
                         </li> 
                         <li className="nav-link" onClick={handleToggleMenu}>
                             <NavLink to="./contact" className="navlink">
-                                Contact
+                                Contact us
                             </NavLink>
                         </li>
                     </ul>
                 </div>
-            </div>)}
+            </div>
+            </Slide>)}
         </div>
     )
 }

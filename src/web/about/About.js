@@ -32,6 +32,7 @@ export default function About() {
         <div className="about">
             <h2 className="about-headline">ABOUT US</h2>
             <div className="about-container">
+                
                 <div className="about-img">
                     <img src={Gym} />
                 </div>
