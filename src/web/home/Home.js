@@ -1,5 +1,4 @@
 import "./home.css";
-import { Fade } from "react-reveal";
 
 export default function Home() {
 

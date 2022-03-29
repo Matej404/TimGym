@@ -14,7 +14,7 @@ export default function Main() {
             <Sidebar />
             <main>
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/TimGym" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/features" element={<Features />} />
                     <Route path="/contact" element={<Contact />} />
