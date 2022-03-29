@@ -34,7 +34,7 @@ export default function Sidebar() {
                 <div className="sidebar-body">
                     <ul className="nav-menu">
                         <li className="nav-link" onClick={handleToggleMenu} >
-                            <NavLink to="/" className="navlink">
+                            <NavLink to="/TimGym" className="navlink">
                                 Home
                             </NavLink>
                         </li>
