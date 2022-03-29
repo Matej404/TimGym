@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TimGym/static/css/main.c78791ee.css",
-    "main.js": "/TimGym/static/js/main.5d64325b.js",
+    "main.js": "/TimGym/static/js/main.360a0ced.js",
     "static/media/location.jpg": "/TimGym/static/media/location.65270731d7b48411c0e9.jpg",
     "static/media/gym.jpg": "/TimGym/static/media/gym.ac23d628b0b6d8b3d7a6.jpg",
     "static/media/gym-logo.png": "/TimGym/static/media/gym-logo.3993b88730209e49d8bb.png",
@@ -29,10 +29,10 @@
     "static/media/1.svg": "/TimGym/static/media/1.0e37b5079b981a91027099de522965b1.svg",
     "index.html": "/TimGym/index.html",
     "main.c78791ee.css.map": "/TimGym/static/css/main.c78791ee.css.map",
-    "main.5d64325b.js.map": "/TimGym/static/js/main.5d64325b.js.map"
+    "main.360a0ced.js.map": "/TimGym/static/js/main.360a0ced.js.map"
   },
   "entrypoints": [
     "static/css/main.c78791ee.css",
-    "static/js/main.5d64325b.js"
+    "static/js/main.360a0ced.js"
   ]
 }
